@@ -1,0 +1,22 @@
+{
+    "name": "Golang + React DevContainer",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": "."
+    },
+    "remoteEnv": {
+      "GOROOT": "/usr/local/go",
+      "PATH": "${containerEnv:PATH}:/usr/local/go/bin"
+    },
+    "appPort": [8080],
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "golang.go",
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode"
+        ]
+      }
+    }
+  }
+  
