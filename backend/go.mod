@@ -1,4 +1,4 @@
-module github.com/MikeForde/GoReactProject
+module myapp
 
 go 1.23
 
